@@ -19,7 +19,7 @@ while True:
 
 
 max_score = 50
-player_score = [0 for i in range(player)]
+player_score = [0 for i in range(player)] #[0,0]
 
 while max(player_score) < max_score:
     for index in range(player):
@@ -42,7 +42,7 @@ while max(player_score) < max_score:
                 
                 print("Your score is:",score)
         player_score[index] += score
-        print("Your totoal score is: ",player_score[index])
+    print("Your totoal score is: ",player_score[index])
 
 
         
